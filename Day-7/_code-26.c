@@ -24,7 +24,7 @@ int main()
     
     for (int i = 1; i <= x; i++)
     {
-         printf("%d\n", fib(i));
+         printf("%d,", fib(i));
     }
     
        
