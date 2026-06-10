@@ -1,4 +1,4 @@
-//WAP TO PRINT STAR PRAMID PATTERN.
+//WAP TO PRINT STAR PRAYMID PATTERN.
 /*
         * 
       * * * 
