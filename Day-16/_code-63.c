@@ -1,6 +1,7 @@
+//WAP TO FIND REQURIED SUM IN AN ARRAY,
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     int n, i, j, sum;
 
     printf("Enter the number of elements: ");
@@ -9,7 +10,8 @@ int main() {
     int arr[n];
 
     printf("Enter the elements:\n");
-    for(i = 0; i < n; i++) {
+    for(i = 0; i < n; i++) 
+    {
         scanf("%d", &arr[i]);
     }
 
@@ -18,16 +20,20 @@ int main() {
 
     int found = 0;
 
-    for(i = 0; i < n; i++) {
-        for(j = i + 1; j < n; j++) {
-            if(arr[i] + arr[j] == sum) {
-                printf("Pair found: %d + %d = %d\n", arr[i], arr[j], sum);
-                found = 1;
-            }
-        }
+    for(i = 0; i < n; i++) 
+    {
+        for(j = i + 1; j < n; j++) 
+    {
+        if(arr[i] + arr[j] == sum) 
+    {
+        printf("Pair found: %d + %d = %d\n", arr[i], arr[j], sum);
+        found = 1;
+    }
+    }
     }
 
-    if(!found) {
+    if(!found) 
+    {
         printf("No pair found with the given sum.\n");
     }
 
