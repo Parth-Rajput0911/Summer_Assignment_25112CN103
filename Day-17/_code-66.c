@@ -1,3 +1,4 @@
+//WAP TO FIND UNION OF ARRAY
 #include <stdio.h>
 int main()
 {
